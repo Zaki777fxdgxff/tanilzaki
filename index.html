@@ -12,22 +12,44 @@ content="Browse, Search, and Listen to the Holy Quran. With accurate Quran text 
 تنزيل القرآن الكريم قرائت قرآن ترتيل Keywords" />
 <meta name="google-site-verification" content="CJe3dBnJEyw0mAYhAKykXbqlE0FT5y6DYi_nvSzgpMo" />
 <meta name="google-site-verification" content="UBkTIlG-WYvxA24clT7L8blWV9IHB2tSneIYPqTJL4c" />
-<link rel="shortcut icon" href="/img/icons/tanzil.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
-<link rel="manifest" href="/img/icons/site.webmanifest">
+<link rel="shortcut icon" href="https://tanzil.net/img/icons/tanzil.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="https://tanzil.net/img/icons/apple-touch-icon.png">
+<link rel="manifest" href="https://files.catbox.moe/quq72r.webmanifest">
 <meta name="application-name" content="Tanzil">
 <meta name="apple-mobile-web-app-title" content="Tanzil">
-<link href="/dist/main.css?v24449" rel="stylesheet" />
+<link href="https://tanzil.net/dist/main.css?v24449" rel="stylesheet" />
 <style>
 /* load default font */
 @font-face {
 font-family: "hafs";
-src: url('/fonts/hafs/hafs.eot');
-src: url('/fonts/hafs/hafs.woff2') format('woff2'),
-url('/fonts/hafs/hafs.woff') format('woff'),
-url('/fonts/hafs/hafs.otf') format('opentype');
+src: url('https://fonts/hafs/hafs.eot');
+src: url('https://fonts/hafs/hafs.woff2') format('woff2'),
+url('https://fonts/hafs/hafs.woff') format('woff'),
+url('https://fonts/hafs/hafs.otf') format('opentype');
 }
 </style>
+<style>
+{
+  "name": "Tanzil",
+  "short_name": "Tanzil",
+  "icons": [
+    {
+      "src": "https://img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
+</style>
+
 </head>
 <body>
 <div id="container"></div>
@@ -51,8 +73,8 @@ var web = ["<div class=\"web\">","<div id=\"top-content\">","<a href=\"\/\" targ
 var content = isMobile ? mobile : web;
 document.getElementById('container').innerHTML = content.join("\n");
 </script>
-<script src="/dist/jquery.min.js"></script>
-<script src="/dist/tanzil.js?v106437"></script>
+<script src="https://tanzil.net/dist/jquery.min.js"></script>
+<script src="https://tanzil.net/dist/tanzil.js?v106437"></script>
 <script>
 var version = '1.7.3';
 var userLang = "en";
